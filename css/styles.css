@@ -50,6 +50,16 @@ img {
   width: 100%;
 }
 
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--navyblue-modal);
+  transition: visibility 250ms ease-in-out, opacity 240ms ease-in-out;
+}
+
 .link {
   text-decoration: none;
   color: inherit;
@@ -784,7 +794,7 @@ img {
 .footer-form {
   height: 80px;
   flex-shrink: 0;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 .footer-form-item {
@@ -803,7 +813,7 @@ img {
 .footer-label-subscribe {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
 }
 
 .footer-subscribe {
